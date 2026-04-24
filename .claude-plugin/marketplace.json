@@ -5,28 +5,27 @@
     "email": "hello@packmind.com"
   },
   "metadata": {
-    "description": "Packmind marketplace for Global",
-    "pluginRoot": "./plugins"
+    "description": "Packmind marketplace for Global"
   },
   "plugins": [
     {
       "name": "packmind-workflow",
-      "source": "packmind-workflow",
+      "source": "./plugins/packmind-workflow",
       "description": "Workflow conventions: commits, microcopy, handoffs"
     },
     {
       "name": "marketplace-demo",
-      "source": "marketplace-demo",
+      "source": "./plugins/marketplace-demo",
       "description": "Demo package for testing marketplace deploy"
     },
     {
       "name": "test-validation-pkg",
-      "source": "test-validation-pkg",
+      "source": "./plugins/test-validation-pkg",
       "description": "Temporary package for validation"
     },
     {
       "name": "test-editable-proposals",
-      "source": "test-editable-proposals",
+      "source": "./plugins/test-editable-proposals",
       "description": "Package for testing editable change proposals"
     }
   ]
