@@ -1,0 +1,33 @@
+{
+  "name": "global-marketplace",
+  "owner": {
+    "name": "Packmind",
+    "email": "hello@packmind.com"
+  },
+  "metadata": {
+    "description": "Packmind marketplace for Global",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "packmind-workflow",
+      "source": "packmind-workflow",
+      "description": "Workflow conventions: commits, microcopy, handoffs"
+    },
+    {
+      "name": "marketplace-demo",
+      "source": "marketplace-demo",
+      "description": "Demo package for testing marketplace deploy"
+    },
+    {
+      "name": "test-validation-pkg",
+      "source": "test-validation-pkg",
+      "description": "Temporary package for validation"
+    },
+    {
+      "name": "test-editable-proposals",
+      "source": "test-editable-proposals",
+      "description": "Package for testing editable change proposals"
+    }
+  ]
+}
