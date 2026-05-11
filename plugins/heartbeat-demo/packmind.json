@@ -1,0 +1,10 @@
+{
+  "packmind_deployment_id": "spike-deployment-001",
+  "packmind_space_id": "spike-space-001",
+  "packmind_space_slug": "hackathon-spike",
+  "packmind_org_id": "spike-org-001",
+  "packmind_plugin_slug": "heartbeat-demo",
+  "packmind_plugin_version": "spike-fake-sha-001",
+  "rendered_at": "2026-05-11T00:00:00Z",
+  "renderer_version": "spike-0.0.1"
+}

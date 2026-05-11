@@ -27,6 +27,11 @@
       "name": "test-editable-proposals",
       "source": "./plugins/test-editable-proposals",
       "description": "Package for testing editable change proposals"
+    },
+    {
+      "name": "heartbeat-demo",
+      "source": "./plugins/heartbeat-demo",
+      "description": "Spike: SessionStart deployment-heartbeat validation (Packmind hackathon)"
     }
   ]
 }
