@@ -17,6 +17,11 @@
       "name": "agentic-workflows",
       "source": "./plugins/agentic-workflows",
       "description": ""
+    },
+    {
+      "name": "packmind-plugin",
+      "source": "./plugins/packmind-plugin",
+      "description": "Contribute fixes and improvements to Packmind-distributed skills directly from Claude Code."
     }
   ]
 }
