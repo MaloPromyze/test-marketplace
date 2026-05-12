@@ -9,29 +9,14 @@
   },
   "plugins": [
     {
-      "name": "packmind-workflow",
-      "source": "./plugins/packmind-workflow",
-      "description": "Workflow conventions: commits, microcopy, handoffs"
+      "name": "architecture",
+      "source": "./plugins/architecture",
+      "description": ""
     },
     {
-      "name": "marketplace-demo",
-      "source": "./plugins/marketplace-demo",
-      "description": "Demo package for testing marketplace deploy"
-    },
-    {
-      "name": "test-validation-pkg",
-      "source": "./plugins/test-validation-pkg",
-      "description": "Temporary package for validation"
-    },
-    {
-      "name": "test-editable-proposals",
-      "source": "./plugins/test-editable-proposals",
-      "description": "Package for testing editable change proposals"
-    },
-    {
-      "name": "heartbeat-demo",
-      "source": "./plugins/heartbeat-demo",
-      "description": "Spike: SessionStart deployment-heartbeat validation (Packmind hackathon)"
+      "name": "agentic-workflows",
+      "source": "./plugins/agentic-workflows",
+      "description": ""
     }
   ]
 }

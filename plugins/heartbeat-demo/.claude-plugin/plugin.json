@@ -1,4 +1,0 @@
-{
-  "name": "heartbeat-demo",
-  "description": "Spike: validates that a bundled SessionStart hook gives Packmind a reliable per-repo / per-user / per-version deployment signal."
-}
