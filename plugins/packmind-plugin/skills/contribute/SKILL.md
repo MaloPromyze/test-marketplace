@@ -28,10 +28,10 @@ For a target skill with slug `<skill-slug>`, run these steps in order. Do NOT sk
 ### 1. Clone the live source into the project's skills directory
 
 ```bash
-packmind-cli playbook clone <skill-slug> --output .claude/skills/<skill-slug>
+packmind-cli playbook clone <skill-slug>
 ```
 
-This fetches the latest version of the skill from Packmind and writes its contents — `SKILL.md` plus any supporting files — directly into `.claude/skills/<skill-slug>/` in the developer's project. Claude Code picks the skill up from there automatically.
+This fetches the latest version of the skill from Packmind and writes its contents — `SKILL.md` plus any supporting files — directly into `.claude/skills/<skill-slug>/` (the default output) so Claude Code picks the skill up automatically. Pass `--output <dir>` only if you want to clone elsewhere; the default is the right place for editing in-session.
 
 After cloning, tell the developer to run `/reload-plugins` in their Claude Code session so the edited skill is reloaded as they iterate.
 
@@ -69,10 +69,10 @@ This POSTs a batch of change proposals to Packmind. They will appear in the exis
 ### 5. Clean up the local sandbox
 
 ```bash
-packmind-cli playbook clean <skill-slug> --output .claude/skills/<skill-slug>
+packmind-cli playbook clean <skill-slug>
 ```
 
-This deletes `.claude/skills/<skill-slug>/` and clears any staged entries scoped to it from `playbook.yaml`. The developer's project returns to the pre-edit state.
+This deletes `.claude/skills/<skill-slug>/` and clears any staged entries scoped to it from `playbook.yaml`. The developer's project returns to the pre-edit state. If step 1 used a custom `--output`, pass the same `--output <dir>` here.
 
 ## Notes
 

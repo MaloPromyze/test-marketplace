@@ -2,5 +2,7 @@
   "spaceId": "3e367cef-ab38-4926-8b20-8c08907d8ba6",
   "spaceSlug": "global",
   "organizationId": "097c7a6c-dd42-402c-9718-a4e8bb23b014",
-  "apiBaseUrl": "http://localhost:4200"
+  "apiBaseUrl": "http://localhost:4200",
+  "telemetry_endpoint": "http://localhost:4200/api/v1/097c7a6c-dd42-402c-9718-a4e8bb23b014/plugin-telemetry/3e367cef-ab38-4926-8b20-8c08907d8ba6/packmind-plugin/latest/session-start",
+  "renderer_version": "f3-2026-05"
 }
